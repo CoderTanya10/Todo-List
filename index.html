@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task List</h1>
+        <div class="input-container">
+            <input type="text" id="new-task" placeholder="Add a task..." class="task-input">
+            <input type="date" id="task-deadline" placeholder="Set a deadline..." class="date-input">
+            <input type="text" id="task-category" placeholder="Category..." class="category-input">
+            <button id="add-task" class="add-button">Add</button>
+        </div>
+        <input type="text" id="search" placeholder="Search tasks..." class="search-input">
+        <ul id="task-list" class="task-list">
+            <!-- Tasks will be added here -->
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
